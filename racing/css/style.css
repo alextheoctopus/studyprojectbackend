@@ -1,0 +1,109 @@
+html {
+    position: relative;
+    background-color: #4c3dad;
+}
+
+#btnToOpenEntryForm {
+    position: absolute;
+    width: 250px;
+    height: 62px;
+    left: 879px;
+    top: 32px;
+    background: #755FFD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#btnToOpenRegiForm {
+    position: absolute;
+    width: 250px;
+    height: 62px;
+    left: 1157px;
+    top: 32px;
+    background: #755FFD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#RegiForm,
+#EntryForm {
+    position: absolute;
+    width: 542px;
+    height: 384px;
+    left: 449px;
+    top: 334px;
+    background: rgba(117, 95, 253, 0.6);
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+}
+
+#name,
+#loginRegi,
+#passwordRegi,
+#loginEntry,
+#passwordEntry {
+    position: absolute;
+    width: 444px;
+    height: 39px;
+    right: 49px;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+#name {
+    top: 101px;
+}
+
+#loginRegi,
+#loginEntry {
+    top: 155px;
+}
+
+#passwordRegi,
+#passwordEntry {
+    top: 209px;
+}
+
+#btnToSubmitRegi,
+#btnToSubmitEntry {
+    position: absolute;
+    width: 250px;
+    height: 62px;
+    left: 146px;
+    top: 292px;
+    background: #755FFD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#formNameRegi,
+#formNameEntry {
+    position: absolute;
+    src: url(Roboto-Regular.ttf);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#formNameRegi {
+    width: 346px;
+    height: 40px;
+    left: 105px;
+    top: 43px;
+}
+
+#formNameEntry {
+    position: absolute;
+    width: 346px;
+    height: 40px;
+    left: 105px;
+    top: 43px;
+}
