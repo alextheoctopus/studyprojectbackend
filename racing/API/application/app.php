@@ -35,7 +35,7 @@ class Application
 		}
 	}
 
-	public function getRaces($params)			//ВСЕ запросы "подписываются" токеном
+	public function getRaces($params)			
 	{
 		if ($params['token']) {
 			$user = $this->user->getUser($params['token']);
